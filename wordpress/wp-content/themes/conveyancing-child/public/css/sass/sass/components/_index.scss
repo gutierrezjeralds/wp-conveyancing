@@ -1,0 +1,148 @@
+.wrapper-index-container{
+    .wrapper-index-head{
+        height: 100%;
+        background: url("https://www.thinkconveyancing.com.au/wp-content/uploads/Splash-MAP-BG-Brisbane.jpg");
+        background-size: cover;
+        .index-head-sub-description-hlr{
+            ul{
+                li{
+                    list-style-image: url("https://www.thinkconveyancing.com.au/wp-content/uploads/icon-check-mark-circle-green.png");
+                }
+            }
+        }
+        .index-head-phone-hlr{
+            background: url("https://www.thinkconveyancing.com.au/wp-content/uploads/image-arrow-3.png") no-repeat;
+            background-size: 100% 100%;
+            padding-left: 100rem !important;
+            margin-left: -100rem !important;
+        }
+        .index-head-quote-input-hlr{
+            .index-head-quote-input-title{
+                &:after{
+                    content: '';
+                    z-index: 5;
+                    position: absolute;
+                    margin: 0 auto;
+                    top: 5.31rem;
+                    left: 0;
+                    right: 0;
+                    width: 0;
+                    height: 0;
+                    border-top: solid 15px $denim;
+                    border-left: solid 15px $transparent;
+                    border-right: solid 15px $transparent;
+                }
+            }
+        }
+    }
+    .wrapper-index-property{
+        height: 243px;
+        background: url("https://www.thinkconveyancing.com.au/wp-content/uploads/gray_line_bg.png");
+        background-size: cover;
+        .index-property-description-col{
+            &:nth-child(1) {
+                .card{
+                    img{
+                        height: 107px;
+                        padding: 33px 30px 20px;
+                    }
+                }
+            }
+            &:nth-child(2), &:nth-child(3) {
+                .card{
+                    img{
+                        width: 100px;
+                        height: 105px;
+                        padding: 18px 10px;
+                    }
+                }
+            }
+            &:nth-child(4) {
+                .card{
+                    img{
+                        width: 127px;
+                        height: 105px;
+                        padding: 25px 10px;
+                    }
+                }
+            }
+            .card{
+                .card-head{
+                    border-top: 2px solid $gainsboro;
+                    border-left: 2px solid $gainsboro;
+                    border-right: 2px solid $gainsboro;
+                }
+                .card-body{
+                    border: 2px solid $gainsboro;
+                    &:before, &:after {
+                        content: " ";
+                        position: absolute;
+                        border: solid $transparent;
+                        height: 0;
+                        width: 0;
+                        bottom: 100%;
+                        left: 50%;
+                    }
+                    &:before{
+                        border-bottom-color: $gainsboro;
+                        border-width: 18px;
+                        margin-left: -18px;
+                    }
+                    &:after{
+                        border-bottom-color: $white-smoke;
+                        border-width: 15px;
+                        margin-left: -15px;
+                    }
+                }
+            }
+        }
+    }
+    .wrapper-index-rating{
+        margin-top: 6.25rem;
+        .index-rating-head{
+            img{
+                &:nth-child(1) {
+                    width: 8rem;
+                    height: 1.5rem;
+                }
+                &.trustpilot-logo {
+                    width: 5rem;
+                    height: 1.3rem;
+                }
+            }
+        }
+        .index-rating-cnt-boyd-hlr{
+            .index-rating-content-hlr{
+                img{
+                    width: 6.5rem;
+                    height: 1.3rem;
+                }
+                .index-rating-cnt-body{
+                    border-bottom: 1px solid $gainsboro;
+                    .index-rating-cnt-body-reply{
+                        border-left: 3px solid $muntain-meadow;
+                    }
+                }
+            }
+        }
+    }
+    .wrapper-index-yt-learn{
+        .index-yt-learn-row{
+            max-width: 85%;
+            padding: 0 20px;
+            .wrapper-index-yt-learn-cnt-hlr{
+                background: url("https://www.thinkconveyancing.com.au/wp-content/uploads/laptop-frame-01_03-blk.png") center center  no-repeat;
+                background-size: contain;
+                padding: 8% 10% 12% 12%;
+                top: 0;
+                left: 0;
+                .index-yt-learn-frame{
+                    cursor: pointer;
+                    z-index: 100;
+                    height: 405px;
+                    top: 5px;
+                }
+            }
+        }
+    }
+}

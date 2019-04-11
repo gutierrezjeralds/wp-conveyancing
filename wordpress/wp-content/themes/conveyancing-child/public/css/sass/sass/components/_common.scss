@@ -1,0 +1,176 @@
+html, body {
+    width:  100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0;
+    border: 0;
+}
+
+body{
+    *:not([class*="fa"]) {
+        font-family: $font-family;
+    }
+}
+
+//Remove text decoration for all a tag
+a:focus,
+a:hover,
+a:active {
+    outline: 0;
+    text-decoration: none;
+}
+
+//Colors
+.white-text{
+    color: $white !important;
+}
+.white-bg{
+    background: $white !important;
+}
+.black-text{
+    color: $black !important;
+}
+.black-bg{
+    background: $black !important;
+}
+.apple-text{
+    color: $apple !important;
+}
+.apple-bg{
+    background: $apple !important;
+}
+.denim-text{
+    color: $denim !important;
+}
+.denim-bg{
+    background: $denim !important;
+}
+.dark-cerulean-text{
+    color: $dark-cerulean !important;
+}
+.dark-cerulean-bg{
+    background: $dark-cerulean !important;
+}
+.summer-sky-text{
+    color: $summer-sky !important;
+}
+.summer-sky-bg{
+    background: $summer-sky !important;
+}
+.white-smoke-text{
+    color: $white-smoke !important;
+}
+.white-smoke-bg{
+    background: $white-smoke !important;
+}
+.gainsboro-text{
+    color: $gainsboro !important;
+}
+.gainsboro-bg{
+    background: $gainsboro !important;
+}
+.dim-gray-text{
+    color: $dim-gray !important;
+}
+.dim-gray-bg{
+    background: $dim-gray !important;
+}
+.muntain-meadow-text{
+    color: $muntain-meadow !important;
+}
+.muntain-meadow-bg{
+    background: $muntain-meadow !important;
+}
+
+//Font sizes
+.font-size-10px{
+    @include responsive-font-size(10px);
+}
+.font-size-12px{
+    @include responsive-font-size(12px);
+}
+.font-size-14px{
+    @include responsive-font-size(14px);
+}
+.font-size-15px{
+    @include responsive-font-size(15px);
+}
+.font-size-16px{
+    @include responsive-font-size(16px);
+}
+.font-size-18px{
+    @include responsive-font-size(18px);
+}
+.font-size-19px{
+    @include responsive-font-size(19px);
+}
+.font-size-20px{
+    @include responsive-font-size(20px);
+}
+.font-size-21px{
+    @include responsive-font-size(21px);
+}
+.font-size-22px{
+    @include responsive-font-size(22px);
+}
+.font-size-24px{
+    @include responsive-font-size(24px);
+}
+.font-size-25px{
+    @include responsive-font-size(25px);
+}
+.font-size-26px{
+    @include responsive-font-size(26px);
+}
+.font-size-32px{
+    @include responsive-font-size(32px);
+}
+.font-size-36px{
+    @include responsive-font-size(36px);
+}
+.font-size-40px{
+    @include responsive-font-size(40px);
+}
+
+//line height
+.line-height-1pt-3rem{
+    line-height: 1.3rem;
+}
+.line-height-2rem{
+    line-height: 2rem;
+}
+.line-height-2pt-35rem{
+    line-height: 2.35rem;
+}
+
+//overflow
+.overflow-hidden{
+    overflow: hidden;
+}
+.overflow-auto{
+    overflow: auto;
+}
+.overflow-y-hidden{
+    overflow-y: hidden;
+}
+.overflow-x-hidden{
+    overflow-x: hidden;
+}
+.overflow-y-scroll{
+    overflow-y: scroll;
+}
+.overflow-x-scroll{
+    overflow-x: scroll;
+}
+
+//vh size
+.h-60vh{
+    height: 60vh;
+}
+
+//font-awesome
+.fa-phone-volume{
+    &:before{
+        content: '\f2a0';
+    }
+}
